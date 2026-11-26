@@ -1,0 +1,18 @@
+# Build output
+Backend/build/
+Backend/dist/
+Backend/*.spec
+Frontend/dist/
+
+# Dependencies / environments
+Backend/venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# Local data & secrets (never publish)
+.env
+*.db
+Backend/generated_reports/
+Backend/static/uploads/
